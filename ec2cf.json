@@ -1,4 +1,4 @@
-{"Description": "CloudFormation template for creating an ec2 instance",
+  {"Description": "CloudFormation template for creating an ec2 instance",
 "Parameters": {
     "KeyName": {
         "Description": "Key Pair Name",
@@ -11,7 +11,7 @@
     },
     "Subnet":{
         "Type": "AWS::EC2::Subnet::Id",
-        "Default": "subnet-07be9540ac705c795"
+        "Default": "subnet-059a8612790a600ec"
     },
     "InstanceType": {
         "Description": "Select one of the possible instance types",
@@ -70,3 +70,8 @@
     }   
 }
 }
+
+
+
+
+
